@@ -33,6 +33,23 @@
     text-decoration: underline;
 }
 
+#dots--link {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+#dots--link::before {
+    content: '';
+    position: absolute;
+}
+
+#dots--link::before:hover {
+    width: 28px;
+    height: 28px;
+    background-color: #818182;
+}
+
 .login__button {
     width: 130px;
     height: 38px;
