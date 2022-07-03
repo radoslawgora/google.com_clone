@@ -3,15 +3,15 @@ const luckyButton = document.getElementById('lucky--button');
 const loginButton = document.getElementById('login__button');
 
 function searchHandler() {
-        console.log('Search button click');
+        alert('Function will be available soon')
     };
 
 function luckyHandler() {
-        console.log('Lucky search button click');
+        alert('Function will be available soon')
     };
 
 function loginHandler() {
-        console.log('Login button click');
+        alert('Function will be available soon')
     };
 
 searchButton.addEventListener('click', searchHandler);
